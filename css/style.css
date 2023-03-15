@@ -1,0 +1,35 @@
+.bg-image {
+    background-image: url('/assets/98DEA9EF-F7CE-4007-93BB-A2C673416E04.jpg');
+    background-size: cover;
+    background-position: relative;
+    height: 700px;
+    z-index: 1;
+  }
+
+  .navbar {
+    transition: all 0.5s;
+    font-size: 20px;
+  }
+
+  .navbar-brand {
+    font-size: 30px;
+  }
+
+  .navbar-scrolled {
+    background-color: #008037;
+    box-shadow: 0 3px 10px rgba(0, 128, 55, 0.15);
+  }
+  
+  .bg-image {
+    font-size: 48px;
+    color: #fff;
+  }
+  
+ 
+
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
