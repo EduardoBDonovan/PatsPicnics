@@ -1,3 +1,6 @@
+body {
+  background-color: white;
+}
 .bg-image {
     background-image: url('/assets/98DEA9EF-F7CE-4007-93BB-A2C673416E04.jpg');
     background-size: cover;
@@ -22,7 +25,10 @@
   
   .bg-image {
     font-size: 48px;
-    color: #fff;
+  }
+
+  footer {
+    background-color: #008037;
   }
   
  
