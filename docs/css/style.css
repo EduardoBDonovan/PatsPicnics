@@ -4,7 +4,7 @@ body {
 }
 
 .bg-image-home {
-    background-image: url('/assets/98DEA9EF-F7CE-4007-93BB-A2C673416E04.jpg');
+    background-image: url('/docs/assets/98DEA9EF-F7CE-4007-93BB-A2C673416E04.jpg');
     background-size: cover;
     background-position: relative;
     height: 700px;
@@ -12,7 +12,7 @@ body {
   }
 
   .bg-image-detail {
-    background-image: url('/assets/detail\ large.jpg');
+    background-image: url('/docs/assets/detail\ large.jpg');
     background-size: cover;
     background-position: relative;
     height: 700px;
@@ -20,7 +20,7 @@ body {
   }
 
   .bg-image-about {
-    background-image: url('/assets/Palisades\ park.jpg');
+    background-image: url('/docs/assets/Palisades\ park.jpg');
     background-size: cover;
     background-position: relative;
     height: 700px;
@@ -28,7 +28,7 @@ body {
   }
 
   .bg-image-about-j{
-    background-image: url('/assets/jade&grace.jpg');
+    background-image: url('/docs/assets/jade&grace.jpg');
     background-size: cover;
     background-position: relative;
     height: 700px;
@@ -36,7 +36,7 @@ body {
   }
 
   .bg-image-book {
-    background-image: url('/assets/book_now_header\ \(1\).jpeg');
+    background-image: url('/docs/assets/book_now_header\ \(1\).jpeg');
     background-size: cover;
     background-position: relative;
     height: 700px;
