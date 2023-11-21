@@ -3,78 +3,69 @@ body {
   font-family: 'EB Garamond', serif;
 }
 
+.bg-image-home,
+.bg-image-detail,
+.bg-image-about,
+.bg-image-about-j,
+.bg-image-book {
+  background-size: cover;
+  height: 120vh; /* Adjust the value as needed */
+  z-index: 1;
+}
+
 .bg-image-home {
-    background-image: url('/assets/98DEA9EF-F7CE-4007-93BB-A2C673416E04.jpg');
-    background-size: cover;
-    background-position: relative;
-    height: 700px;
-    z-index: 1;
-  }
+  background-position: center;
+  background-image: url('/assets/98DEA9EF-F7CE-4007-93BB-A2C673416E04.jpg');
+}
 
-  .bg-image-detail {
-    background-image: url('/assets/detail\ large.jpg');
-    background-size: cover;
-    background-position: relative;
-    height: 700px;
-    z-index: 1;
-  }
+.bg-image-detail {
+  background-position: center;
+  background-image: url('/assets/detail\ large.jpg');
+}
 
-  .bg-image-about {
-    background-image: url('/assets/Palisades\ park.jpg');
-    background-size: cover;
-    background-position: relative;
-    height: 700px;
-    z-index: 1;
-  }
+.bg-image-about {
+  background-position: center;
+  background-image: url('/assets/Palisades\ park.jpg');
+}
 
-  .bg-image-about-j{
-    background-image: url('/assets/jade&grace.jpg');
-    background-size: cover;
-    background-position: relative;
-    height: 700px;
-    z-index: 1;
-  }
+.bg-image-about-j {
+  background-position: center;
+  background-image: url('/assets/jade&grace.jpg');
+}
 
-  .bg-image-book {
-    background-image: url('/assets/book_now_header\ \(1\).jpeg');
-    background-size: cover;
-    background-position: relative;
-    height: 700px;
-    z-index: 1;
-  }
+.bg-image-book {
+  background-position: relative;
+  background-image: url('/assets/book_now_header\ \(1\).jpeg');
+}
 
-  .bg-color {
-    background-color: whitesmoke;
-  }
+.bg-color {
+  background-color: whitesmoke;
+}
 
+.navbar {
+  transition: all 0.5s;
+  font-size: 2.5vh; /* Adjust the value as needed */
+}
 
-  .navbar {
-    transition: all 0.5s;
-    font-size: 20px;
-  }
+.navbar-brand {
+  font-size: 3.75vh; /* Adjust the value as needed */
+}
 
-  .navbar-brand {
-    font-size: 30px;
-  }
+.navbar-scrolled {
+  background-color: whitesmoke;
+  box-shadow: 0 0.4vh 1.5vh rgba(0, 128, 55, 0.15); /* Adjust the values as needed */
+}
 
-  .navbar-scrolled {
-    background-color: whitesmoke;
-    box-shadow: 0 3px 10px rgba(0, 128, 55, 0.15);
-  }
-  
-  .bg-image {
-    font-size: 48px;
-  }
+.bg-image {
+  font-size: 3vh; /* Adjust the value as needed */
+}
 
-  footer {
-    background-color: #008037;
-  }
-  
- 
-
+footer {
+  background-color: #008037;
+}
 
 @media(min-width: 768px) {
-    .news-input {
-        width: 50%;
-    }
+  .news-input {
+    width: 50%;
+  }
 }
